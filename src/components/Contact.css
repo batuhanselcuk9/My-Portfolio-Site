@@ -1,0 +1,129 @@
+/* =========================
+   📌 Contact Section
+   ========================= */
+.contact {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: #1e3c72; /* ✅ Lacivert arka plan */
+  color: white;        /* ✅ Yazılar beyaz */
+  transition: background 0.3s, color 0.3s;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: var(--color-accent);
+}
+
+/* =========================
+   📌 Contact Card (Form Box)
+   ========================= */
+.contact-card {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #fff; /* ✅ Kart beyaz */
+  color: #333;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* =========================
+   📌 Form Styling
+   ========================= */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Input Grupları (ikonlu alanlar) */
+.input-group {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-group input,
+.input-group textarea {
+  width: 100%;
+  padding: 0.8rem;
+  padding-left: 40px; /* ikon için boşluk */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  background: var(--color-bg);
+  color: var(--color-text);
+  transition: 0.3s;
+}
+
+/* Hover ve Focus */
+.input-group input:focus,
+.input-group textarea:focus {
+  border-color: var(--color-accent);
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.4);
+}
+
+.input-icon {
+  position: absolute;
+  left: 12px;
+  color: #555;
+  font-size: 1.1rem;
+}
+
+.textarea-group .input-icon {
+  top: 15px;
+  align-self: flex-start;
+}
+
+textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* =========================
+   📌 Submit Button
+   ========================= */
+button {
+  padding: 0.8rem;
+  border: none;
+  border-radius: 8px;
+  background: var(--color-accent);
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background: var(--color-accent-hover);
+  transform: scale(1.05);
+}
+
+/* =========================
+   📌 Responsive
+   ========================= */
+@media (max-width: 768px) {
+  .contact {
+    padding: 3rem 1rem;
+  }
+
+  .contact-card {
+    padding: 1.5rem;
+  }
+
+  .contact h2 {
+    font-size: 1.6rem;
+  }
+}

@@ -1,0 +1,32 @@
+.footer {
+  background: var(--color-primary);
+  color: #eee;
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+body.dark .footer {
+  background: #1a1a1a;
+}
+
+.footer .socials {
+  margin-top: 10px;
+}
+
+.footer .socials a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.footer .socials img {
+  width: 32px;
+  height: 32px;
+  filter: invert(100%);
+  transition: transform 0.2s ease;
+}
+
+.footer .socials img:hover {
+  transform: scale(1.2);
+}
