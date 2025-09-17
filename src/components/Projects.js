@@ -6,11 +6,11 @@ import websiteImg from "../assets/website.png";
 const Projects = () => {
     return (
         <section id="projects" className="projects">
-            <h2>My Projects</h2>
+            <h2 data-aos="fade-up">My Projects 🚀</h2>
             <div className="project-grid">
 
                 {/* Project 1 */}
-                <div className="project-card">
+                <div className="project-card" data-aos="fade-right">
                     <img src={calculatorImg} alt="Basic Calculator Project" />
                     <h3>Basic Calculator with React</h3>
                     <p>
@@ -33,7 +33,6 @@ const Projects = () => {
                             Demo
                         </a>
                     </div>
-                    {/* ✅ Tech Stack Badges */}
                     <div className="tech-stack">
                         <span>React</span>
                         <span>JavaScript</span>
@@ -42,7 +41,7 @@ const Projects = () => {
                 </div>
 
                 {/* Project 2 */}
-                <div className="project-card">
+                <div className="project-card" data-aos="fade-left">
                     <img src={websiteImg} alt="Mangata & Gallo Website" />
                     <h3>Mangata & Gallo Website</h3>
                     <p>
@@ -65,7 +64,6 @@ const Projects = () => {
                             Demo
                         </a>
                     </div>
-                    {/* ✅ Tech Stack Badges */}
                     <div className="tech-stack">
                         <span>HTML</span>
                         <span>CSS</span>
