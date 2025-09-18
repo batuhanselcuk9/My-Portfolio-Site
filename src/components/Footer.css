@@ -30,3 +30,9 @@ body.dark .footer {
 .footer .socials img:hover {
   transform: scale(1.2);
 }
+
+.footer {
+  max-width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}

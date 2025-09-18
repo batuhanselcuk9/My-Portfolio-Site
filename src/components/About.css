@@ -82,3 +82,9 @@ body.dark .skill-card:hover {
   font-size: 2rem;
   margin-bottom: 6px;
 }
+
+.about {
+  max-width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}

@@ -127,3 +127,9 @@ button:hover {
     font-size: 1.6rem;
   }
 }
+
+.contact {
+  max-width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
