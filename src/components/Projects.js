@@ -71,6 +71,37 @@ const Projects = () => {
                     </div>
                 </div>
 
+                {/* Project 3 */}
+                <div className="project-card" data-aos="fade-down">
+                    <img src={calculatorImg} alt="Basic Calculator Project" />
+                    <h3>MoonTodo React App</h3>
+                    <p>
+                        A basic todo app built with React. Performs basic todo operations with clean UI.
+                    </p>
+                    <div className="links">
+                        <a
+                            href="https://github.com/batuhanselcuk9/MoonTodo"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            GitHub
+                        </a>
+                        <a
+                            href=""
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            Demo
+                        </a>
+                    </div>
+                    <div className="tech-stack">
+                        <span>React</span>
+                        <span>JavaScript</span>
+                        <span>CSS</span>
+                        <span>Vite</span>
+                    </div>
+                </div>
+
             </div>
         </section>
     );
