@@ -87,7 +87,7 @@ const Projects = () => {
                             GitHub
                         </a>
                         <a
-                            href=""
+                            href="https://github.com/batuhanselcuk9/MoonTodo"
                             target="_blank"
                             rel="noreferrer"
                         >
