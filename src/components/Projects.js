@@ -3,6 +3,7 @@ import "./Projects.css";
 import calculatorImg from "../assets/calculator.png";
 import websiteImg from "../assets/website.png";
 import moontodoImg from "../assets/moontodo.png";
+import moonflixImg from "../assets/moonflix.png";
 
 const Projects = () => {
     return (
@@ -73,7 +74,7 @@ const Projects = () => {
                 </div>
 
                 {/* Project 3 */}
-                <div className="project-card" data-aos="fade-down">
+                <div className="project-card" data-aos="fade-down-right">
                     <img src={moontodoImg} alt="MoonTodo Project" />
                     <h3>MoonTodo React App</h3>
                     <p>
@@ -99,6 +100,39 @@ const Projects = () => {
                         <span>React</span>
                         <span>JavaScript</span>
                         <span>CSS</span>
+                        <span>Vite</span>
+                    </div>
+                </div>
+
+                {/* Project 4 */}
+                <div className="project-card" data-aos="fade-down-left">
+                    <img src={moonflixImg} alt="MoonFlix TMDB Api" />
+                    <h3>MoonFlix TMDB Api</h3>
+                    <p>
+                        A movie finder app built with React. Uses TMDB API to fetch movie data.
+                    </p>
+                    <div className="links">
+                        <a
+                            href="https://github.com/batuhanselcuk9/MoonFlix"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            GitHub
+                        </a>
+                        <a
+                            href="https://moonflixtmdb.netlify.app/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            Demo
+                        </a>
+                    </div>
+                    <div className="tech-stack">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>React</span>
+                        <span>TMDB API</span>
                         <span>Vite</span>
                     </div>
                 </div>
