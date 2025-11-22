@@ -2,6 +2,7 @@ import React from "react";
 import "./Projects.css";
 import calculatorImg from "../assets/calculator.png";
 import websiteImg from "../assets/website.png";
+import moontodoImg from "../assets/moontodo.png";
 
 const Projects = () => {
     return (
@@ -73,7 +74,7 @@ const Projects = () => {
 
                 {/* Project 3 */}
                 <div className="project-card" data-aos="fade-down">
-                    <img src={calculatorImg} alt="Basic Calculator Project" />
+                    <img src={moontodoImg} alt="MoonTodo Project" />
                     <h3>MoonTodo React App</h3>
                     <p>
                         A basic todo app built with React. Performs basic todo operations with clean UI.
